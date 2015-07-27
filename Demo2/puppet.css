@@ -1,0 +1,19 @@
+/* puppet.css */
+
+body {
+    background:black;
+    color:#80e;
+    font:bold bigger Verdana,serif;
+}
+
+h3 {
+    text-decoration:none;
+    letter-spacing:1px;
+    padding:0 28px 4px 28px;
+    font:bold bigger Verdana,serif;
+    color:#c0f;
+}
+
+#avatar {
+  background-image: url(fondo.jpg);
+}
