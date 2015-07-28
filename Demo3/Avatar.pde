@@ -1,4 +1,9 @@
-class Avatar //.2 SVG/Shape DOM Tree
+/*
+  Avatar.pde
+  Avatar class
+*/
+
+class Avatar // SVG/Shape DOM Tree
 {
   PShape root;
   float width, height; // current size
@@ -23,10 +28,9 @@ class Avatar //.2 SVG/Shape DOM Tree
    this.height = s * this.h0;
    this.cy = this.height / 2.0;
  }
- 
+
  void draw(int x, int y) {
    shape( this.root, x-(int)this.cx, y-(int)this.cy ); // Draw Puppet
  }
 
 } // Avatar class
-
