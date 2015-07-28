@@ -1,0 +1,36 @@
+/* avatar.css */
+
+body {
+    background:#fff;
+    color:#000;
+    font:normal 16px Helvetica, serif;
+}
+
+h1 {
+    text-decoration:none;
+    letter-spacing:1px;
+    padding:0 28px 4px 28px;
+    font:bold 20px Helvetica, serif;
+    color:#000;
+}
+
+canvas {
+  border-radius: 5px;
+  background: #fff;
+  border: 2px solid #999;
+  display: inline-block;
+  margin: 0 4px 0 4px;
+}
+
+#editor {
+  border-radius: 5px;
+  background: #fff;
+  border: 2px solid #999;
+  display: inline-block;
+  font-family: Consolas, Courier New, monospace;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 4px 0 4px;
+  padding: 10px;
+  text-align: left;
+}

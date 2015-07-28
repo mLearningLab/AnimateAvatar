@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Avatar Ver. 0.3</title>
-        <link rel="stylesheet" href="puppet.css">
+        <link rel="stylesheet" href="avatar.css">
         <script src="processing.js"></script>
     </head>
 
@@ -14,11 +14,17 @@
 
             <h3>Avatar Ver. 0.3</h3>
 
-            <p> Using Processing.js </p>
+            <p> Avatar prototype ported to processing.js for Khan Academy live editor </p>
 
+
+            <textarea id="editor" rows="19" cols="70">
+  Avatar.load("squirrel");
+  Avatar.scale(0.25);
+  Avatar.draw();
+            </textarea>
             <canvas data-processing-sources="AvatarMin.pde Avatar.pde"></canvas>
 
-            <p> AnimatePuppet Copyright (C) 2015 Alberto Pacheco </p>
+            <p> AnimateAvatar Copyright (C) 2015 Alberto Pacheco </p>
             <p> Licensed under GNU GPL ver. 3 </p>
 
         </center>
